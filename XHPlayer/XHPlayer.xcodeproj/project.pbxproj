@@ -33,6 +33,8 @@
 		7D716D6822B60A96008ABFC0 /* XHBufferSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5D22B60A96008ABFC0 /* XHBufferSlider.m */; };
 		7D716D6D22B60AA3008ABFC0 /* XHVideoConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D6A22B60AA3008ABFC0 /* XHVideoConfigModel.m */; };
 		7D716D6E22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D6C22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m */; };
+		7D716D7222B61A13008ABFC0 /* XHListVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D7122B61A13008ABFC0 /* XHListVideoViewController.m */; };
+		7D716D7822B61AEE008ABFC0 /* XHVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D7722B61AEE008ABFC0 /* XHVideoPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +91,10 @@
 		7D716D6B22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayTimeRecord.h; sourceTree = "<group>"; };
 		7D716D6C22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayTimeRecord.m; sourceTree = "<group>"; };
 		7D716D6F22B60AB9008ABFC0 /* XHVideoPlayerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayerHeader.h; sourceTree = "<group>"; };
+		7D716D7022B61A13008ABFC0 /* XHListVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHListVideoViewController.h; sourceTree = "<group>"; };
+		7D716D7122B61A13008ABFC0 /* XHListVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHListVideoViewController.m; sourceTree = "<group>"; };
+		7D716D7622B61AEE008ABFC0 /* XHVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayerView.h; sourceTree = "<group>"; };
+		7D716D7722B61AEE008ABFC0 /* XHVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +196,10 @@
 				7D716D2F22B608C9008ABFC0 /* XHListPlayerViewController.m */,
 				7D716D3122B608D8008ABFC0 /* XHFullPlayerViewController.h */,
 				7D716D3222B608D8008ABFC0 /* XHFullPlayerViewController.m */,
+				7D716D7022B61A13008ABFC0 /* XHListVideoViewController.h */,
+				7D716D7122B61A13008ABFC0 /* XHListVideoViewController.m */,
+				7D716D7622B61AEE008ABFC0 /* XHVideoPlayerView.h */,
+				7D716D7722B61AEE008ABFC0 /* XHVideoPlayerView.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -287,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D716D7222B61A13008ABFC0 /* XHListVideoViewController.m in Sources */,
 				7D716D6822B60A96008ABFC0 /* XHBufferSlider.m in Sources */,
 				7D716D4722B60A5F008ABFC0 /* XHVideoPlayerUtil.m in Sources */,
 				7D716D4922B60A5F008ABFC0 /* UIDevice+XHVideoRotation.m in Sources */,
@@ -302,6 +313,7 @@
 				7D716D4822B60A5F008ABFC0 /* UIImage+getImage.m in Sources */,
 				7D716D6322B60A96008ABFC0 /* XHVideoBottomView.m in Sources */,
 				7D716D1522B60536008ABFC0 /* AppDelegate.m in Sources */,
+				7D716D7822B61AEE008ABFC0 /* XHVideoPlayerView.m in Sources */,
 				7D716D6E22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m in Sources */,
 				7D716D6722B60A96008ABFC0 /* XHCircleLoading.m in Sources */,
 				7D716D3022B608C9008ABFC0 /* XHListPlayerViewController.m in Sources */,

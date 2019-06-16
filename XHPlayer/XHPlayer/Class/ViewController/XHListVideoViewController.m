@@ -7,6 +7,11 @@
 //
 
 #import "XHListVideoViewController.h"
+#import "XHVideoPlayerView.h"
+#import "XHVideoPlayerHeader.h"
+#import "XHVideoConst.h"
+
+
 
 @interface XHListVideoViewController ()
 
@@ -17,6 +22,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    kVideoPlayerManager.maxRecordCount = 2;
+    XHVideoPlayerView *videoPlayer = [[XHVideoPlayerView alloc]initWithFrame:CGRectMake(0, kNavBarH, kScreenWidth, VideoH(kScreenWidth))];
+    videoPlayer.layer.borderWidth = 2;
+    [self.view addSubview:videoPlayer];
+    [videoPlayer setUrl:@"http://wvideo.spriteapp.cn/video/2016/0503/572802030bf16_wpd.mp4"];
+
+    
+    
 }
 
 /*

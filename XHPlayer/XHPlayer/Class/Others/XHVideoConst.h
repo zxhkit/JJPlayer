@@ -13,8 +13,17 @@
 /**********************   CONSTS  ***********************/
 
 #define kVideoFullFrame              [UIScreen mainScreen].bounds
-#define kVideoScreenW                [UIScreen mainScreen].bounds.size.width
-#define kVideoScreenH                [UIScreen mainScreen].bounds.size.height
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define kStatusBarH ([UIApplication sharedApplication].statusBarFrame.size.height)//(44/20)
+#define kNavBarH  (44 + kStatusBarH)
+#define kStatusTabH  ((kStatusBarH == 44.0) ? 34.0 : 0.0)
+#define kTabBarH  ((kStatusBarH == 44.0) ? 83.0 : 49.0)
+#define KIsiPhoneX ((kStatusBarH == 44.0) ? YES : NO)
+#define kTabBarBottomHeight ((kStatusBarH == 44.0) ? 15 : 0)
+
+
 
 
 #define kVideoMaskViewBGColor [[UIColor blackColor] colorWithAlphaComponent:.3]

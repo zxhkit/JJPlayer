@@ -67,7 +67,7 @@ typedef NS_ENUM(NSUInteger, MoveDirection) {
 
 @end
 
-#define kFullScreenFrame CGRectMake(0 , 0, kVideoScreenH, kVideoScreenW)
+#define kFullScreenFrame CGRectMake(0 , 0, kScreenHeight, kScreenWidth)
 static const NSInteger maxSecondsForBottom = 5.f;
 
 
@@ -175,7 +175,7 @@ static const NSInteger maxSecondsForBottom = 5.f;
     if (!self.configModel.onlyFullScreen) {
         [self.view setFrame:self.originFrame];
     }else{
-        [self.view setFrame:CGRectMake(0, 0,kVideoScreenW, kVideoScreenH)];
+        [self.view setFrame:CGRectMake(0, 0,kScreenWidth, kScreenHeight)];
     }
     
     [self.view setClipsToBounds:YES];

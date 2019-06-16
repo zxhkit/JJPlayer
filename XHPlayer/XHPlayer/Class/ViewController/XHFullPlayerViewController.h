@@ -8,16 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "XHVideoConfigModel.h"
+#import "XHVideoPlayerView.h"
 
-typedef NS_ENUM(NSUInteger, VideoPlayerStatus) {
-    videoPlayer_unknown,
-    videoPlayer_readyToPlay,
-    videoPlayer_playing,
-    videoPlayer_pause,
-    videoPlayer_loading,
-    videoPlayer_playEnd,
-    videoPlayer_playFailed
-};
+//typedef NS_ENUM(NSUInteger, VideoPlayerStatus) {
+//    videoPlayer_unknown,
+//    videoPlayer_readyToPlay,
+//    videoPlayer_playing,
+//    videoPlayer_pause,
+//    videoPlayer_loading,
+//    videoPlayer_playEnd,
+//    videoPlayer_playFailed
+//};
 
 
 typedef void (^VideoPlayerControllerBackBtnClick)(void);

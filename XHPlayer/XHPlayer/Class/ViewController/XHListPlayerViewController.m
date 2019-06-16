@@ -33,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self buildDatas];
+    [self initDatas];
     
     [self setupUI];
 }
@@ -58,7 +58,7 @@
     NSLog(@"视频播放列表销毁了");
 }
 
-- (void)buildDatas{
+- (void)initDatas{
     
     self.urls = @[ @"http://hc34.aipai.com/user/128/31977128/6009407/card/44044719/card.mp4?l=f",
                   @"http://hc31.aipai.com/user/128/31977128/1006/card/44340096/card.mp4?l=f",
@@ -80,14 +80,14 @@
 - (void)setupUI{
     
     kVideoPlayerManager.maxRecordCount = 2;
-    XHFullPlayerViewController *videoPlayer = [[XHFullPlayerViewController alloc]initWithFrame:CGRectMake(0, 0, kVideoScreenW, VideoH(kVideoScreenW))];
+    XHFullPlayerViewController *videoPlayer = [[XHFullPlayerViewController alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, VideoH(kScreenWidth))];
     [self.view addSubview:videoPlayer.view];
     [self addChildViewController:videoPlayer];
     self.videoPlayerVC = videoPlayer;
     [self.videoPlayerVC setUrl:self.urls[0]];
     [self.videoPlayerVC setTitle:self.names[0]];
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(videoPlayer.view.frame), kVideoScreenW, kVideoScreenH-CGRectGetHeight(videoPlayer.view.frame)) style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(videoPlayer.view.frame), kScreenWidth, kScreenHeight-CGRectGetHeight(videoPlayer.view.frame)) style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
