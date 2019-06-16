@@ -13,7 +13,7 @@ self.videoPlayerVC = videoPlayer;
 
 
 
-
+![示例图](https://github.com/zxhkit/XHPlayer/blob/master/XHPlayer/XHPlayer/Snip.png)
 
 
 
