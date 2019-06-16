@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "XHListPlayerViewController.h"
 #import "XHFullPlayerViewController.h"
+#import "XHListVideoViewController.h"
 
 
 @interface ViewController ()
@@ -39,6 +40,14 @@
     [fullBtn addTarget:self action:@selector(enterFullPlayerAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:fullBtn];
     
+    UIButton * viewsBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [viewsBtn setTitle:@"进入listView播放" forState:UIControlStateNormal];
+    CGRect viewBtnFrame = fullBtn.frame;
+    viewBtnFrame.origin.y = CGRectGetMaxY(fullBtn.frame)+20;
+    [viewsBtn setFrame:viewBtnFrame];
+    [viewsBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [viewsBtn addTarget:self action:@selector(enterViewPlayerAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:viewsBtn];
     
     
     
@@ -60,7 +69,12 @@
     
 }
 
-
+-(void)enterViewPlayerAction{
+    
+    XHListVideoViewController *vc = [[XHListVideoViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 
 
 
