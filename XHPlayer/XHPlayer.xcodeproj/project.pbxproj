@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D716D1522B60536008ABFC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D1422B60536008ABFC0 /* AppDelegate.m */; };
+		7D716D1822B60536008ABFC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D1722B60536008ABFC0 /* ViewController.m */; };
+		7D716D1B22B60536008ABFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D716D1922B60536008ABFC0 /* Main.storyboard */; };
+		7D716D1D22B60538008ABFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D716D1C22B60538008ABFC0 /* Assets.xcassets */; };
+		7D716D2022B60538008ABFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D716D1E22B60538008ABFC0 /* LaunchScreen.storyboard */; };
+		7D716D2322B60538008ABFC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D2222B60538008ABFC0 /* main.m */; };
+		7D716D3022B608C9008ABFC0 /* XHListPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D2F22B608C9008ABFC0 /* XHListPlayerViewController.m */; };
+		7D716D3322B608D8008ABFC0 /* XHFullPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3222B608D8008ABFC0 /* XHFullPlayerViewController.m */; };
+		7D716D4622B60A5F008ABFC0 /* XHVideoUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3422B60A5F008ABFC0 /* XHVideoUIManager.m */; };
+		7D716D4722B60A5F008ABFC0 /* XHVideoPlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3522B60A5F008ABFC0 /* XHVideoPlayerUtil.m */; };
+		7D716D4822B60A5F008ABFC0 /* UIImage+getImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3622B60A5F008ABFC0 /* UIImage+getImage.m */; };
+		7D716D4922B60A5F008ABFC0 /* UIDevice+XHVideoRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3922B60A5F008ABFC0 /* UIDevice+XHVideoRotation.m */; };
+		7D716D4A22B60A5F008ABFC0 /* XHVideoTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3B22B60A5F008ABFC0 /* XHVideoTimeUtil.m */; };
+		7D716D4B22B60A5F008ABFC0 /* XHVideoPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D3E22B60A5F008ABFC0 /* XHVideoPlayManager.m */; };
+		7D716D4C22B60A5F008ABFC0 /* XHViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D4022B60A5F008ABFC0 /* XHViewFactory.m */; };
+		7D716D4D22B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D4522B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.m */; };
+		7D716D6022B60A96008ABFC0 /* XHVideoMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5322B60A96008ABFC0 /* XHVideoMaskView.m */; };
+		7D716D6122B60A96008ABFC0 /* XHFastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5422B60A96008ABFC0 /* XHFastForwardView.m */; };
+		7D716D6222B60A96008ABFC0 /* XHPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5522B60A96008ABFC0 /* XHPlayerView.m */; };
+		7D716D6322B60A96008ABFC0 /* XHVideoBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5622B60A96008ABFC0 /* XHVideoBottomView.m */; };
+		7D716D6522B60A96008ABFC0 /* XHVideoSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5922B60A96008ABFC0 /* XHVideoSettingView.m */; };
+		7D716D6622B60A96008ABFC0 /* XHVideoTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5A22B60A96008ABFC0 /* XHVideoTopView.m */; };
+		7D716D6722B60A96008ABFC0 /* XHCircleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5B22B60A96008ABFC0 /* XHCircleLoading.m */; };
+		7D716D6822B60A96008ABFC0 /* XHBufferSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D5D22B60A96008ABFC0 /* XHBufferSlider.m */; };
+		7D716D6D22B60AA3008ABFC0 /* XHVideoConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D6A22B60AA3008ABFC0 /* XHVideoConfigModel.m */; };
+		7D716D6E22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D6C22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D716D1022B60536008ABFC0 /* XHPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D716D1322B60536008ABFC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D716D1422B60536008ABFC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D716D1622B60536008ABFC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D716D1722B60536008ABFC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D716D1A22B60536008ABFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D716D1C22B60538008ABFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D716D1F22B60538008ABFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D716D2122B60538008ABFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D716D2222B60538008ABFC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D716D2E22B608C9008ABFC0 /* XHListPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHListPlayerViewController.h; sourceTree = "<group>"; };
+		7D716D2F22B608C9008ABFC0 /* XHListPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHListPlayerViewController.m; sourceTree = "<group>"; };
+		7D716D3122B608D8008ABFC0 /* XHFullPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHFullPlayerViewController.h; sourceTree = "<group>"; };
+		7D716D3222B608D8008ABFC0 /* XHFullPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHFullPlayerViewController.m; sourceTree = "<group>"; };
+		7D716D3422B60A5F008ABFC0 /* XHVideoUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoUIManager.m; sourceTree = "<group>"; };
+		7D716D3522B60A5F008ABFC0 /* XHVideoPlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayerUtil.m; sourceTree = "<group>"; };
+		7D716D3622B60A5F008ABFC0 /* UIImage+getImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+getImage.m"; sourceTree = "<group>"; };
+		7D716D3722B60A5F008ABFC0 /* XHVideoUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoUIManager.h; sourceTree = "<group>"; };
+		7D716D3822B60A5F008ABFC0 /* XHVideoPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayManager.h; sourceTree = "<group>"; };
+		7D716D3922B60A5F008ABFC0 /* UIDevice+XHVideoRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XHVideoRotation.m"; sourceTree = "<group>"; };
+		7D716D3A22B60A5F008ABFC0 /* UIImage+getImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+getImage.h"; sourceTree = "<group>"; };
+		7D716D3B22B60A5F008ABFC0 /* XHVideoTimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoTimeUtil.m; sourceTree = "<group>"; };
+		7D716D3C22B60A5F008ABFC0 /* XHViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHViewFactory.h; sourceTree = "<group>"; };
+		7D716D3D22B60A5F008ABFC0 /* XHSingletonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSingletonService.h; sourceTree = "<group>"; };
+		7D716D3E22B60A5F008ABFC0 /* XHVideoPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayManager.m; sourceTree = "<group>"; };
+		7D716D3F22B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+XHVideoRotation.h"; sourceTree = "<group>"; };
+		7D716D4022B60A5F008ABFC0 /* XHViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHViewFactory.m; sourceTree = "<group>"; };
+		7D716D4122B60A5F008ABFC0 /* UIDevice+XHVideoRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XHVideoRotation.h"; sourceTree = "<group>"; };
+		7D716D4222B60A5F008ABFC0 /* XHVideoTimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoTimeUtil.h; sourceTree = "<group>"; };
+		7D716D4322B60A5F008ABFC0 /* XHVideoConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoConst.h; sourceTree = "<group>"; };
+		7D716D4422B60A5F008ABFC0 /* XHVideoPlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayerUtil.h; sourceTree = "<group>"; };
+		7D716D4522B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XHVideoRotation.m"; sourceTree = "<group>"; };
+		7D716D4E22B60A96008ABFC0 /* XHPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPlayerView.h; sourceTree = "<group>"; };
+		7D716D4F22B60A96008ABFC0 /* XHBufferSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBufferSlider.h; sourceTree = "<group>"; };
+		7D716D5022B60A96008ABFC0 /* XHVideoMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoMaskView.h; sourceTree = "<group>"; };
+		7D716D5122B60A96008ABFC0 /* XHVideoBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoBottomView.h; sourceTree = "<group>"; };
+		7D716D5222B60A96008ABFC0 /* XHVideoSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoSettingView.h; sourceTree = "<group>"; };
+		7D716D5322B60A96008ABFC0 /* XHVideoMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoMaskView.m; sourceTree = "<group>"; };
+		7D716D5422B60A96008ABFC0 /* XHFastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFastForwardView.m; sourceTree = "<group>"; };
+		7D716D5522B60A96008ABFC0 /* XHPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPlayerView.m; sourceTree = "<group>"; };
+		7D716D5622B60A96008ABFC0 /* XHVideoBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoBottomView.m; sourceTree = "<group>"; };
+		7D716D5822B60A96008ABFC0 /* XHVideoTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoTopView.h; sourceTree = "<group>"; };
+		7D716D5922B60A96008ABFC0 /* XHVideoSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoSettingView.m; sourceTree = "<group>"; };
+		7D716D5A22B60A96008ABFC0 /* XHVideoTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoTopView.m; sourceTree = "<group>"; };
+		7D716D5B22B60A96008ABFC0 /* XHCircleLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCircleLoading.m; sourceTree = "<group>"; };
+		7D716D5C22B60A96008ABFC0 /* XHCircleLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCircleLoading.h; sourceTree = "<group>"; };
+		7D716D5D22B60A96008ABFC0 /* XHBufferSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBufferSlider.m; sourceTree = "<group>"; };
+		7D716D5F22B60A96008ABFC0 /* XHFastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFastForwardView.h; sourceTree = "<group>"; };
+		7D716D6922B60AA3008ABFC0 /* XHVideoConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoConfigModel.h; sourceTree = "<group>"; };
+		7D716D6A22B60AA3008ABFC0 /* XHVideoConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoConfigModel.m; sourceTree = "<group>"; };
+		7D716D6B22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayTimeRecord.h; sourceTree = "<group>"; };
+		7D716D6C22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayTimeRecord.m; sourceTree = "<group>"; };
+		7D716D6F22B60AB9008ABFC0 /* XHVideoPlayerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayerHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D716D0D22B60536008ABFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D716D0722B60536008ABFC0 = {
+			isa = PBXGroup;
+			children = (
+				7D716D1222B60536008ABFC0 /* XHPlayer */,
+				7D716D1122B60536008ABFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D716D1122B60536008ABFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D1022B60536008ABFC0 /* XHPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D716D1222B60536008ABFC0 /* XHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D1322B60536008ABFC0 /* AppDelegate.h */,
+				7D716D1422B60536008ABFC0 /* AppDelegate.m */,
+				7D716D1622B60536008ABFC0 /* ViewController.h */,
+				7D716D1722B60536008ABFC0 /* ViewController.m */,
+				7D716D2922B6088E008ABFC0 /* Class */,
+				7D716D1922B60536008ABFC0 /* Main.storyboard */,
+				7D716D1C22B60538008ABFC0 /* Assets.xcassets */,
+				7D716D1E22B60538008ABFC0 /* LaunchScreen.storyboard */,
+				7D716D2122B60538008ABFC0 /* Info.plist */,
+				7D716D2222B60538008ABFC0 /* main.m */,
+			);
+			path = XHPlayer;
+			sourceTree = "<group>";
+		};
+		7D716D2922B6088E008ABFC0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D2C22B6088E008ABFC0 /* ViewController */,
+				7D716D2A22B6088E008ABFC0 /* Others */,
+				7D716D2B22B6088E008ABFC0 /* Model */,
+				7D716D2D22B6088E008ABFC0 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7D716D2A22B6088E008ABFC0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D3F22B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.h */,
+				7D716D4522B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.m */,
+				7D716D3D22B60A5F008ABFC0 /* XHSingletonService.h */,
+				7D716D4322B60A5F008ABFC0 /* XHVideoConst.h */,
+				7D716D6F22B60AB9008ABFC0 /* XHVideoPlayerHeader.h */,
+				7D716D4422B60A5F008ABFC0 /* XHVideoPlayerUtil.h */,
+				7D716D3522B60A5F008ABFC0 /* XHVideoPlayerUtil.m */,
+				7D716D3822B60A5F008ABFC0 /* XHVideoPlayManager.h */,
+				7D716D3E22B60A5F008ABFC0 /* XHVideoPlayManager.m */,
+				7D716D4222B60A5F008ABFC0 /* XHVideoTimeUtil.h */,
+				7D716D3B22B60A5F008ABFC0 /* XHVideoTimeUtil.m */,
+				7D716D3722B60A5F008ABFC0 /* XHVideoUIManager.h */,
+				7D716D3422B60A5F008ABFC0 /* XHVideoUIManager.m */,
+				7D716D3C22B60A5F008ABFC0 /* XHViewFactory.h */,
+				7D716D4022B60A5F008ABFC0 /* XHViewFactory.m */,
+				7D716D4122B60A5F008ABFC0 /* UIDevice+XHVideoRotation.h */,
+				7D716D3922B60A5F008ABFC0 /* UIDevice+XHVideoRotation.m */,
+				7D716D3A22B60A5F008ABFC0 /* UIImage+getImage.h */,
+				7D716D3622B60A5F008ABFC0 /* UIImage+getImage.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		7D716D2B22B6088E008ABFC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D6922B60AA3008ABFC0 /* XHVideoConfigModel.h */,
+				7D716D6A22B60AA3008ABFC0 /* XHVideoConfigModel.m */,
+				7D716D6B22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.h */,
+				7D716D6C22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D716D2C22B6088E008ABFC0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D2E22B608C9008ABFC0 /* XHListPlayerViewController.h */,
+				7D716D2F22B608C9008ABFC0 /* XHListPlayerViewController.m */,
+				7D716D3122B608D8008ABFC0 /* XHFullPlayerViewController.h */,
+				7D716D3222B608D8008ABFC0 /* XHFullPlayerViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7D716D2D22B6088E008ABFC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D716D4F22B60A96008ABFC0 /* XHBufferSlider.h */,
+				7D716D5D22B60A96008ABFC0 /* XHBufferSlider.m */,
+				7D716D5C22B60A96008ABFC0 /* XHCircleLoading.h */,
+				7D716D5B22B60A96008ABFC0 /* XHCircleLoading.m */,
+				7D716D5F22B60A96008ABFC0 /* XHFastForwardView.h */,
+				7D716D5422B60A96008ABFC0 /* XHFastForwardView.m */,
+				7D716D4E22B60A96008ABFC0 /* XHPlayerView.h */,
+				7D716D5522B60A96008ABFC0 /* XHPlayerView.m */,
+				7D716D5122B60A96008ABFC0 /* XHVideoBottomView.h */,
+				7D716D5622B60A96008ABFC0 /* XHVideoBottomView.m */,
+				7D716D5022B60A96008ABFC0 /* XHVideoMaskView.h */,
+				7D716D5322B60A96008ABFC0 /* XHVideoMaskView.m */,
+				7D716D5222B60A96008ABFC0 /* XHVideoSettingView.h */,
+				7D716D5922B60A96008ABFC0 /* XHVideoSettingView.m */,
+				7D716D5822B60A96008ABFC0 /* XHVideoTopView.h */,
+				7D716D5A22B60A96008ABFC0 /* XHVideoTopView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D716D0F22B60536008ABFC0 /* XHPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D716D2622B60538008ABFC0 /* Build configuration list for PBXNativeTarget "XHPlayer" */;
+			buildPhases = (
+				7D716D0C22B60536008ABFC0 /* Sources */,
+				7D716D0D22B60536008ABFC0 /* Frameworks */,
+				7D716D0E22B60536008ABFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHPlayer;
+			productName = XHPlayer;
+			productReference = 7D716D1022B60536008ABFC0 /* XHPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D716D0822B60536008ABFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = xuanhe;
+				TargetAttributes = {
+					7D716D0F22B60536008ABFC0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D716D0B22B60536008ABFC0 /* Build configuration list for PBXProject "XHPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D716D0722B60536008ABFC0;
+			productRefGroup = 7D716D1122B60536008ABFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D716D0F22B60536008ABFC0 /* XHPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D716D0E22B60536008ABFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D716D2022B60538008ABFC0 /* LaunchScreen.storyboard in Resources */,
+				7D716D1D22B60538008ABFC0 /* Assets.xcassets in Resources */,
+				7D716D1B22B60536008ABFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D716D0C22B60536008ABFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D716D6822B60A96008ABFC0 /* XHBufferSlider.m in Sources */,
+				7D716D4722B60A5F008ABFC0 /* XHVideoPlayerUtil.m in Sources */,
+				7D716D4922B60A5F008ABFC0 /* UIDevice+XHVideoRotation.m in Sources */,
+				7D716D4D22B60A5F008ABFC0 /* AppDelegate+XHVideoRotation.m in Sources */,
+				7D716D6222B60A96008ABFC0 /* XHPlayerView.m in Sources */,
+				7D716D1822B60536008ABFC0 /* ViewController.m in Sources */,
+				7D716D6122B60A96008ABFC0 /* XHFastForwardView.m in Sources */,
+				7D716D6D22B60AA3008ABFC0 /* XHVideoConfigModel.m in Sources */,
+				7D716D3322B608D8008ABFC0 /* XHFullPlayerViewController.m in Sources */,
+				7D716D2322B60538008ABFC0 /* main.m in Sources */,
+				7D716D6522B60A96008ABFC0 /* XHVideoSettingView.m in Sources */,
+				7D716D4B22B60A5F008ABFC0 /* XHVideoPlayManager.m in Sources */,
+				7D716D4822B60A5F008ABFC0 /* UIImage+getImage.m in Sources */,
+				7D716D6322B60A96008ABFC0 /* XHVideoBottomView.m in Sources */,
+				7D716D1522B60536008ABFC0 /* AppDelegate.m in Sources */,
+				7D716D6E22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m in Sources */,
+				7D716D6722B60A96008ABFC0 /* XHCircleLoading.m in Sources */,
+				7D716D3022B608C9008ABFC0 /* XHListPlayerViewController.m in Sources */,
+				7D716D6022B60A96008ABFC0 /* XHVideoMaskView.m in Sources */,
+				7D716D4A22B60A5F008ABFC0 /* XHVideoTimeUtil.m in Sources */,
+				7D716D4622B60A5F008ABFC0 /* XHVideoUIManager.m in Sources */,
+				7D716D6622B60A96008ABFC0 /* XHVideoTopView.m in Sources */,
+				7D716D4C22B60A5F008ABFC0 /* XHViewFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D716D1922B60536008ABFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D716D1A22B60536008ABFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D716D1E22B60538008ABFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D716D1F22B60538008ABFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D716D2422B60538008ABFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D716D2522B60538008ABFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D716D2722B60538008ABFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ66Z2VX6S;
+				INFOPLIST_FILE = XHPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.XHPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D716D2822B60538008ABFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ66Z2VX6S;
+				INFOPLIST_FILE = XHPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.XHPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D716D0B22B60536008ABFC0 /* Build configuration list for PBXProject "XHPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D716D2422B60538008ABFC0 /* Debug */,
+				7D716D2522B60538008ABFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D716D2622B60538008ABFC0 /* Build configuration list for PBXNativeTarget "XHPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D716D2722B60538008ABFC0 /* Debug */,
+				7D716D2822B60538008ABFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D716D0822B60536008ABFC0 /* Project object */;
+}
