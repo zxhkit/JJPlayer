@@ -60,16 +60,16 @@
 
 - (void)initDatas{
     
-    self.urls = @[ @"http://hc34.aipai.com/user/128/31977128/6009407/card/44044719/card.mp4?l=f",
-                  @"http://hc31.aipai.com/user/128/31977128/1006/card/44340096/card.mp4?l=f",
-                  @"http://wvideo.spriteapp.cn/video/2016/0317/56ea981c857df_wpd.mp4",
-                  @"http://wvideo.spriteapp.cn/video/2016/0503/572802030bf16_wpd.mp4",
-                  @"http://wvideo.spriteapp.cn/video/2016/0709/5781023a979d7_wpd.mp4"
+    self.urls = @[   @"http://wvideo.spriteapp.cn/video/2016/0317/56ea981c857df_wpd.mp4",
+                    @"http://hc34.aipai.com/user/128/31977128/6009407/card/44044719/card.mp4?l=f",
+                    @"http://hc31.aipai.com/user/128/31977128/1006/card/44340096/card.mp4?l=f",
+                    @"http://wvideo.spriteapp.cn/video/2016/0503/572802030bf16_wpd.mp4",
+                    @"http://wvideo.spriteapp.cn/video/2016/0709/5781023a979d7_wpd.mp4"
                   ];
     
-    self.names = @[@"王者荣耀德古拉：44杀貂蝉？谁能阻挡我",
-                   @"德古拉貂蝉",
-                   @"百思心情-故事",
+    self.names = @[ @"百思心情-故事",
+                   @"德古拉-超神",
+                   @"德古拉貂蝉-爽",
                    @"百思心情-感情",
                    @"百思不得姐:美丽烟花"
                    

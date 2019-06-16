@@ -35,6 +35,7 @@
 		7D716D6E22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D6C22B60AA3008ABFC0 /* XHVideoPlayTimeRecord.m */; };
 		7D716D7222B61A13008ABFC0 /* XHListVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D7122B61A13008ABFC0 /* XHListVideoViewController.m */; };
 		7D716D7822B61AEE008ABFC0 /* XHVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D716D7722B61AEE008ABFC0 /* XHVideoPlayerView.m */; };
+		7DB8ADAB22B63494008161A6 /* Snip.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB8ADAA22B63494008161A6 /* Snip.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		7D716D7122B61A13008ABFC0 /* XHListVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHListVideoViewController.m; sourceTree = "<group>"; };
 		7D716D7622B61AEE008ABFC0 /* XHVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayerView.h; sourceTree = "<group>"; };
 		7D716D7722B61AEE008ABFC0 /* XHVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayerView.m; sourceTree = "<group>"; };
+		7DB8ADAA22B63494008161A6 /* Snip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				7D716D1422B60536008ABFC0 /* AppDelegate.m */,
 				7D716D1622B60536008ABFC0 /* ViewController.h */,
 				7D716D1722B60536008ABFC0 /* ViewController.m */,
+				7DB8ADAA22B63494008161A6 /* Snip.png */,
 				7D716D2922B6088E008ABFC0 /* Class */,
 				7D716D1922B60536008ABFC0 /* Main.storyboard */,
 				7D716D1C22B60538008ABFC0 /* Assets.xcassets */,
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D716D2022B60538008ABFC0 /* LaunchScreen.storyboard in Resources */,
+				7DB8ADAB22B63494008161A6 /* Snip.png in Resources */,
 				7D716D1D22B60538008ABFC0 /* Assets.xcassets in Resources */,
 				7D716D1B22B60536008ABFC0 /* Main.storyboard in Resources */,
 			);

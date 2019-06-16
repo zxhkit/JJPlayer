@@ -64,7 +64,7 @@
     
     XHFullPlayerViewController * vc = [[XHFullPlayerViewController alloc] init];
     [vc.configModel setOnlyFullScreen:YES];
-    [vc setUrl:@"http://hc31.aipai.com/user/128/31977128/1006/card/44340096/card.mp4?l=f"];
+    [vc setUrl:@"http://wvideo.spriteapp.cn/video/2016/0317/56ea981c857df_wpd.mp4"];
     [self.navigationController pushViewController:vc animated:YES];
     
 }
